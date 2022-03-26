@@ -1,3 +1,5 @@
+//Cree un algoritmo que haga le pide al usuario sus datos ,le asigna categoria segun su edad y valor de cuota social 
+
 const cuotaM = parseInt(1000); 
 const cuotaJ = parseInt(1300);   
 const cuotaA = parseInt(1700);     ;
