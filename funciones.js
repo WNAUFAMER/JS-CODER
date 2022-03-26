@@ -11,12 +11,12 @@ for (let i= 0; i<5; i++) {
     let completo = `${nombre} ${apellido}`;
 
     if (edadIngresada<=12 && edadIngresada>0)
-        alert(`Estimado/a ${completo} usted tiene ${edadIngresada} años recibe la caterigoria MENOR y el valor de la cuota es${cuotaM} pesos argentinos`);
+        alert(`Estimado/a ${completo} usted tiene ${edadIngresada} años recibe la caterigoria MENOR y el valor de la cuota es ${cuotaM} pesos argentinos`);
 
     else if (edadIngresada>13 && edadIngresada<18) {
-        alert(`Estimado/a ${completo} usted tiene ${edadIngresada} años recibe la caterigoria JUVENIL y el valor de la cuota es${cuotaJ}pesos argentinos`);
+        alert(`Estimado/a ${completo} usted tiene ${edadIngresada} años recibe la caterigoria JUVENIL y el valor de la cuota es ${cuotaJ} pesos argentinos`);
 
     } else {
-        alert(`Estimado/a ${completo} usted tiene ${edadIngresada} años recibe la caterigoria ADULTO y el valor de la cuota es${cuotaA} pesos argentinos`);
+        alert(`Estimado/a ${completo} usted tiene ${edadIngresada} años recibe la caterigoria ADULTO y el valor de la cuota es ${cuotaA} pesos argentinos`);
     }
 };
